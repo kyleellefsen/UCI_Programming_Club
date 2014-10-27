@@ -1,0 +1,193 @@
+﻿html{
+font-family: 'ArialMT', 'Arial', sans-serif;
+}
+.ui-tabs .ui-state-default{
+	display:inline;
+    margin: 0px 20px;
+	}
+.ui-tabs > ul{ margin:5px;}
+.ui-tabs-nav a{
+	text-decoration: none;
+	font-family: 'Lily Script One', helveti;
+	}
+.ui-tabs-nav{
+    padding-bottom:15px;
+    margin:0px;
+}
+.ui-tabs-nav .ui-state-default a { 
+font-family: Arial, sans-serif;
+font-size: 1em;
+    color: #666;
+	} 
+.ui-tabs-nav .ui-state-active a { 
+	font-weight: bold;
+    color: #463C3C;
+	}
+.tabs{
+text-align: center;
+}
+.left-align{
+text-align:left;
+}
+.tabs > ul{
+    border-style: solid;
+    border-width:0px;
+    border-bottom-width: 1px;
+    margin-bottom:15px;
+}
+
+.Header {
+color: rgb(167, 167, 167);
+font-family: 'Arial-BoldMT', 'Arial', sans-serif;
+font-size: 36px;
+font-stretch: normal;
+font-style: normal;
+font-variant: normal;
+font-weight: 700;
+letter-spacing: 0;
+line-height: 42px;
+margin-bottom: 50px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+opacity: 1.00;
+padding-bottom: 0px;
+padding-top: 0px;
+text-align: center;
+text-decoration: none;
+text-indent: 0px;
+text-transform: none;
+}
+
+.imageblock img {
+margin-top: 50px;
+height: 150px;
+display: inline;
+margin-bottom: 50px;
+}
+
+h2{
+color: rgb(88, 77, 77);
+font-family: 'ArialMT', 'Arial', sans-serif;
+font-size: 20px;
+font-stretch: normal;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+letter-spacing: 0;
+line-height: 25px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+opacity: 1.00;
+padding-bottom: 0px;
+padding-top: 0px;
+text-decoration: none;
+text-indent: 0px;
+text-transform: none;}
+
+.tabs2> ul li{
+	display:inline;
+    margin: 0px 0px;
+}
+.tabs2>ul{
+ border-bottom-width: 1px;
+}
+
+.assigned_reading{
+padding: 10px 0px;
+border-radius: 10px;
+background-color: #E06363;
+color: white;
+}
+.assigned_reading ul{
+list-style-type: none;
+text-align:left;
+}
+.modules{
+margin-top:10px;
+padding: 10px 0px;
+border-radius: 10px;
+background-color: #73C98D;
+color: white;
+}
+.modules ul{
+list-style-type: none;
+text-align:left;
+}
+.modules a{
+color: white;
+}
+.lab_resources {
+margin-top:10px;
+padding: 10px 0px;
+border-radius: 10px;
+background-color: #41D1D1;
+color: white;
+}
+.lab_resources ul{
+list-style-type: none;
+text-align:left;
+}
+.lab_resources a{
+color: white;
+}
+.exams {
+margin-top:10px;
+padding: 10px 0px;
+border-radius: 10px;
+background-color: #E88833;
+color: white;
+}
+.exams ul{
+list-style-type: none;
+text-align:left;
+}
+.announcements{
+margin-top:10px;
+padding: 10px 0px;
+border-radius: 10px;
+background-color: #E88833;
+color: white;
+}
+.announcements ul{
+list-style-type: none;
+text-align:left;
+}
+#useful_links{
+text-align:left;
+}
+#useful_links a{
+text-decoration:none;
+margin-top:10px;
+font-weight:bold;
+}
+#useful_links h2{
+margin-bottom:20px;
+margin-top:20px;
+border: 0px;
+border-bottom: 1px;
+border-style: solid;
+}
+#useful_links p{
+margin:0px;
+font-size: 80%;
+}
+.ulink {
+    margin-top:15px;
+}
+
+footer{
+margin-top:50px;
+text-align: center;
+font-size: 12px;
+}
+
+footer span{
+white-space:nowrap;
+}
+
+p{
+text-align:left;
+}
