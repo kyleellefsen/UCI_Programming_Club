@@ -116,11 +116,13 @@ class Point():
             self.descendants.extend(child.getDescendants())
         return self.descendants
     
-os.chdir('C:\\Users\\Kyle Ellefsen\\Documents\\GitHub\\ParkerLab\\FLIKA\\PyFLIKA2')
+#os.chdir('C:\\Users\\Kyle Ellefsen\\Documents\\GitHub\\ParkerLab\\FLIKA\\PyFLIKA2')
+os.chdir('/Users/kyle/Github/ParkerLab/FLIKA/PyFLIKA2')
 from FLIKA import *
 app = QApplication(sys.argv)
 initializeMainGui()
-open_file(r'C:\Users\Kyle Ellefsen\Documents\GitHub\UCI_Programming_Club\2015_spring_week4\blue.tif')
+#open_file(r'C:\Users\Kyle Ellefsen\Documents\GitHub\UCI_Programming_Club\2015_spring_week4\blue.tif')
+open_file('/Users/kyle/Github/UCI_Programming_Club/2015_spring_week4/blue.tif')
 C=g.m.currentWindow.image
 mx,my=C.shape
 C=getDensities(C,10,35)
