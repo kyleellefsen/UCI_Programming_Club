@@ -59,11 +59,10 @@ text-indent: 0px;
 text-transform: none;
 }
 
-.imageblock img {
-margin-top: 50px;
+.imageblock img {/*margin-top: 50px;
 height: 150px;
 display: inline;
-margin-bottom: 50px;
+margin-bottom: 50px;*/
 }
 
 h2{
