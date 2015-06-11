@@ -125,7 +125,7 @@ open_file(r'C:\Users\Kyle Ellefsen\Documents\GitHub\UCI_Programming_Club\2015_sp
 #open_file('/Users/kyle/Github/UCI_Programming_Club/2015_spring_week4/blue.tif')
 C=g.m.currentWindow.image
 mx,my=C.shape
-C=getDensities(C,10,35)
+C=getDensities(C,10,15)
 Window(C)
 D=np.linspace(0,.5,mx*my)
 C=C+D.reshape(C.shape)
