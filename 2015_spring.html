@@ -23,7 +23,7 @@
                     <img src='website/support/images/cell_counter.JPG' style='height:400px;'>
                 </div>
                 
-                <h2> Welcome to the Fall 2015 UCI Programming Club Website!</h2>
+                <h2> Welcome to the Spring 2015 UCI Programming Club Website!</h2>
                 <div style='text-align:left;'>
                     <p>We are a small group of programmers and soon-to-be programmers at UCI.  Programming, at its core, is problem solving.  Programmers take difficult problems and solve them by transforming them into a language a computer can understand.  Like all problem solving, the answers are easier to find if you pool your knowledge and creativity in a group.  Our programming club is designed so that we can pose problems we are facing in lab to the group, and as a group we can brain storm tools, techniques, and the overall path towards a solution.  If the problem is interesting, we may even write a few lines of code for you.  :)  Our club is made for all members of the UCI neuroscience community; faculty, staff, postdocs, grad students, and undergrads are all welcomed and encouraged to attend.</p>
                     <p>We encourage people who have never programmed before to attend.  We will help you set up a programming environment, point out online resources, and answer any questions you have about programming in general or the specifics of any problem you have to help you get up to speed programming Python.</p>
@@ -41,7 +41,7 @@
 
                     </ul>
                     <p>Please email Conor Cox at cdcox1@gmail.com if you'd like to be on the mailing list for reminders and additional resources, or if you have topics/projects you'd like to cover.</p>
-                    <p>This Quarter (Fall 2015) we meet at 5 PM on Wednesdays in  BioSci 3 Room 3120</p>
+                    <p>This Quarter (Spring 2015) we meet at 9 AM on Mondays in  BioSci 3 Room 3120</p>
                 </div>
             </div>      
             <div id='weeks'>
@@ -60,68 +60,84 @@
                     </ul>
                     <div>
                         <div id='week1'>
-                            <h1 class='Header'>Week 1 </h1>
+                            <h1 class='Header'>Week 1: April 6th </h1>
                             <div class='announcements'>
                                 <h2>Announcements</h2>
                                 <ul>
+                                    <li>We went over the basics of programming, helped everyone set up the programming environment we will be using (<a href='http://continuum.io/downloads'>Anaconda</a>), and discussed several problems we are interested in solving: mouse tracking and analysing RNA seq data. </li>
                                 </ul>
                             </div>
                         </div>
                         <div id='week2'>
-                            <h1 class='Header'>Week 2</h1>
+                            <h1 class='Header'>Week 2: April 13th </h1>
                             <div class='announcements'>
                                 <h2>Announcements</h2>
                                 <ul>
+                                    <li>Alli is analysing FASTQ RNA-seq data.  In order to practice programming and get a handle on the problems involved, we came up with a simple problem derived from the beginning of the RNA sequence work flow:  now that I have sequenced multiple copies DNA which was synthesized from a strand of RNA, how do I determine which sequences were derived from which RNA strands?
+                                    <br><br>
+                                    
+                                    In our slightly contrived example, there were 10 original RNA strands, each of different lengths.  We replicated each one 10 times, which gives us a total of 100 sequences.  The problem is, each time we replicated a sequence, there were a few errors.  In this example, all the errors are single replacement mutations (an A got replaced with a G).  Each copy has an unknown number of these point mutations.  Our goal is to use the 100 sequences to recover the original 10 RNA strands.  This isn't exactly the same problem that RNA-seq programs deal with, but many of the issues are the same.
+                                    <br><br>
+                                    The text file containing the 100 sequences is <a download  target="_blank" href='2015_spring_week2/RNA_sequence.txt'>here</a>.  The original code used to generate it is <a download  target="_blank" href='2015_spring_week2/create_RNA_sequences.py'>here</a>.  And <a download  target="_blank" href='2015_spring_week2/solution.py'>here</a> is the progress we have made towards a solution.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div id='week3'>
-                            <h1 class='Header'>Week 3</h1>
+                            <h1 class='Header'>Week 3: April 20th</h1>
                             <div class='announcements'>
                                 <h2>Announcements</h2>
                                     <ul>
+                                        <li>We continued on the problem from last week. </li>
+                                        <br>
+                                        <li>The text file containing the 100 sequences is <a download  target="_blank" href='2015_spring_week2/RNA_sequence.txt'>here</a>.  The original code used to generate it is <a download  target="_blank" href='2015_spring_week2/create_RNA_sequences.py'>here</a>.  And <a download  target="_blank" href='2015_spring_week2/solution.py'>here</a> is the progress we have made towards a solution.</li>
                                     </ul>
                             </div>
                         </div>
                         <div id='week4'>
-                            <h1 class='Header'>Week 4</h1>
+                            <h1 class='Header'>Week 4: April 27th</h1>
                             <div class='announcements'>
                             <h2>Announcements</h2>
                                     <ul>
-                                        This week we're simulating an action potential using the Hodgkin Huxley model.  Take a look at this brief background before we meet: <a href='2015_fall_week4/Hodgkin_Huxley.html'>Intro to Hodgkin Huxley Model</a>
+                                        <li>This week we wrote a script to count cells from an image. </li>
+                                        <br>
+                                        <li>The image file is <a href='2015_spring_week4/rat_Btub.jpg'>here</a>. Our solution is <a href='2015_spring_week4/solution.py'>here</a> </li>
                                     </ul>
-                                    <ul>(<a href='2015_fall_week4/Hodgkin_Huxley_solution.html'>Solution</a>). Don't peek until after programming club!</ul>
                             </div>
                         </div>
                         <div id='week5'>
-                            <h1 class='Header'>Week 5</h1>
+                            <h1 class='Header'>Week 5: May 4th</h1>
                             <div class='announcements'>
                             <h2>Announcements</h2>
                                     <ul>
-                                        
+                                        <li>This week we wrote a script to track mice. </li>
+                                        <br>
+                                        <li>Our solution is <a href='2015_spring_week5/solution.py'>here</a> </li>
                                     </ul>
                             </div>
                         </div>
                         <div id='week6'>
-                            <h1 class='Header'>Week 6</h1>
+                            <h1 class='Header'>Week 6: May 11th</h1>
                             <div class='announcements'>
                             <h2>Announcements</h2>
                                     <ul>
-                                        
+                                        <li>This week we continued on last week's project to write a script to track mice. The codeshare is located <a href='http://www.codeshare.io/0QUvE'>here</a>.</li>
+                                        <br>
+                                        <li>Thanks to Carley for bringing coffee!</li>
                                     </ul>
                             </div>
                         </div>
                         <div id='week7'>
-                            <h1 class='Header'>Week 7</h1>
+                            <h1 class='Header'>Week 7: May 18th</h1>
                         </div>
                         <div id='week8'>
-                            <h1 class='Header'>Week 8</h1>
+                            <h1 class='Header'>Week 8: May 25th</h1>
                         </div>
                         <div id='week9'>
-                            <h1 class='Header'>Week 9</h1>
+                            <h1 class='Header'>Week 9: June 1st</h1>
                         </div>
                         <div id='week10'>
-                            <h1 class='Header'>Week 10</h1>
+                            <h1 class='Header'>Week 10: June 8th</h1>
                         </div>
                     </div>
                 </div>
@@ -151,7 +167,7 @@
         </div>
         <footer>
         <span><a href="https://github.com/kyleellefsen/UCI_Programming_Club">Our Github Page</a>&nbsp;|&nbsp;</span>
-        <span>Wednesday, 5:00 PM, BioSci 3 Room 3120, Fall 2015S</span>
+        <span>Monday, 9:00 AM, BioSci 3 Room 3120</span>
         </footer>
 </body>
 </html>
