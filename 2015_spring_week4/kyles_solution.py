@@ -210,7 +210,7 @@ outsideROI=[]
 for i in np.arange(len(higher_pts)):
     y=higher_pts[i][0]#smallest distance to higher point
     x=higher_pts[i][2]# density 
-    if (x>300 and y>10):
+    if (x>80 and y>10):
         centers.append(i)
     else:
         outsideROI.append(i)
